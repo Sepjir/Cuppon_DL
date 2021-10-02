@@ -1,0 +1,165 @@
+body,
+p,
+section,
+article,
+div,
+nav,
+footer,
+ul,
+li,
+h1,
+h2,
+h3,
+ol,
+input {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.cuppon-nav {
+    background-color: #28A745;
+    min-height: 62px;
+    margin-bottom: 18px;
+}
+
+.cuppon-nav.navbar-dark .navbar-nav a {
+    color: #fff;
+  }
+  
+  .cuppon-brand {
+    width: 86px;
+    height: 25px;
+  }
+  
+  .card-body {
+    padding: 14px 1rem 15px;
+  }
+  
+  .cuppon-card {
+    margin-bottom: 30px;
+    width: 279px;
+  }
+
+  .cuppon-card__img {
+      height: 180px;
+      width: 278px;
+  }
+  
+  .cuppon-card__titulo {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 11px;
+    font-weight: 300;
+    color: #212529;
+  }
+  .cuppon-card__descripcion {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    margin-bottom: 2px;
+    color: #707070;
+  }
+
+  .cuppon-card__direccion {
+      font-size: 13px;
+      font-weight: 300;
+      line-height: 15px;
+      color: #707070;
+  }
+
+  .fas {
+      width: 6.13px;
+      height: 9.2px;
+      margin-right: 4.4px;
+  }
+  .cuppon-card__precios {
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+  }
+
+  .cuppon-card__pnormal {
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 19px;
+      margin-right: 11px;
+  }
+
+  .cuppon-card__poferta {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #28A745;
+  }
+  
+  @media (min-width: 677px) {
+    .cuppon-nav {
+      margin-bottom: 36px;
+    }
+  }
+  
+  .section-form {
+      background-color: #28A745;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 24px;
+  }
+
+  .titulo-formulario {
+      font-size: 21px;
+      font-weight: 500;
+      line-height: 24px;
+      margin-bottom: 15px;
+      color: #FFFFFF;
+  }
+
+  .form-nombre {
+      margin-bottom: 14px;
+      width: 278px;
+      height: 40px;
+  }
+
+  .form-mail {
+      margin-bottom: 14px;
+      width: 278px;
+      height: 40px;
+  }
+
+  .form-control {
+      font-size: 16;
+      line-height: 19px;
+      font-weight: 300;
+      color: #707070;
+  }
+
+  .boton-enviar {
+      margin-bottom: 39px;
+  }
+ .btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 112.71px;
+    height: 40px;
+ }
+  .footer-cuppon {
+      text-align: center;
+
+  }
+
+  .img-footer-logo {
+      width: 82px;
+      height: 24px;
+      margin-bottom: 10px;
+ }
+
+ .footer-text {
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 19px;
+     color: #707070;
+     margin: 0 22px 21px
+ }
